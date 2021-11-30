@@ -13,4 +13,16 @@ public class CustomerDto {
     
   }
   
+  public static void main(String[] args) {
+   
+    UUID id = (UUID)args[0];
+    String name = args[1];
+    Sring address = args[2];
+    
+    CustomerDto customerDto = new CustomerDto(id, name, address);
+    
+    System.out.println("This is a test for the merge.");
+    
+  }
+  
 }
